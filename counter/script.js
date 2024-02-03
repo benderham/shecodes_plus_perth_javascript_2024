@@ -6,6 +6,7 @@ function add(step) {
 }
 
 function subtract(step) {
+  console.log('Subtracting ' + step);
   let numberElement = document.getElementById('number');
   let number = numberElement.innerText;
   number = parseInt(number) - parseInt(step);
